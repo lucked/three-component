@@ -1,13 +1,13 @@
 
-# How to use
+# How to
 
     $ npm install three-component --save
     
 
 ```
-import ThreComponent from 'three-component'
+import ThreeComponent from 'three-component'
 
-class App extends ThreComponent {
+class App extends ThreeComponent {
 
     constructor( args ) {
         super( args )
@@ -28,6 +28,9 @@ class App extends ThreComponent {
 };
 
 new App({
-    color: 0x0000ff
+    selector: "#container",
+    transparent: true,
+    color: 0x0000ff,
+    alpha: 0.4,
 });
 ```
