@@ -1,6 +1,6 @@
 {
   "name": "three-component",
-  "version": "0.0.1",
+  "version": "0.0.12",
   "description": "Base class for threejs apps",
   "main": "index.js",
   "scripts": {
