@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/giuseppesalvo/three-component.git"
   },
+  "browserify": {"transform": ["babelify"]},
   "keywords": [
     "three.js",
     "webgl"
