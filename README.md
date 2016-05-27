@@ -1,6 +1,8 @@
 
 # How to
 
+    ES6
+
     $ npm install three-component --save
     
 
