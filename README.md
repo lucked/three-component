@@ -1,13 +1,13 @@
-'use strict';
 
-/**
- * App Main Module
- *
- */
+# How to use
 
-import ThreeRender from './base'
+    $ npm install three-component --save
+    
 
-class Animation extends ThreeRender {
+```
+import ThreComponent from 'three-component'
+
+class App extends ThreComponent {
 
     constructor( args ) {
         super( args )
@@ -27,6 +27,7 @@ class Animation extends ThreeRender {
 
 };
 
-window.onload = () => new Animation({
+new App({
     color: 0x0000ff
 });
+```
