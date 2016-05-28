@@ -29,7 +29,7 @@ class App extends ThreeComponent {
 
 };
 
-new App({
+const amazingAnimation = new App({
     selector: "#container",
     transparent: true,
     color: 0x0000ff,
