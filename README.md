@@ -5,7 +5,7 @@ ES6
 
     $ npm install three-component --save
     
-
+    
 ```
 import ThreeComponent from 'three-component'
 
@@ -36,3 +36,13 @@ new App({
     alpha: 0.4,
 });
 ```
+
+## Inherited properties
+
+this.container : Node
+
+this.renderer  : THREE.WebGLRenderer
+
+this.camera    : THREE.PerspectiveCamera
+
+this.scene     : THREE.Scene
